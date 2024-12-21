@@ -4,7 +4,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 from flask import Flask, request, render_template_string
 
-# Télécharger les ressources nécessaires pour NLTK (VADER lexicon)
+# Télécharger les ressources nécessaires pour NLTK
 nltk.download('vader_lexicon')
 
 # Initialisation du modèle spaCy pour l'anglais, c'est celui que j'utilise pour analyser la structure grammaticale du texte
